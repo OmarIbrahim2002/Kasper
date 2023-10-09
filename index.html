@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style css/framework.css">
+    <link rel="stylesheet" href="style css/Normalize.css">
+    <link rel="stylesheet" href="style css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style css/main.css">
+    <link rel="icon" href="img/logo-ghoust.png">
+        <!-- Icons links -->
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d30005137f.js" crossorigin="anonymous"></script>
+        <!-- Font Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Kasper Site</title>
+</head>
+<body>
+    <button id="up"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/logo 2.png" alt="logo">
+            </a>
+            <nav>
+                <i class="material-icons-outlined toggle_menu">reorder</i>
+                <ul>
+                    <li>
+                        <a class="active" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="form">
+                    <i class="material-icons-outlined">search</i>
+                </div>
+            <!-- ------------------------------- -->
+                <div class="theme">
+                    <span class="dark" data-theme="#191919" 
+                    data-color="white">
+                        <i class="fa-solid fa-moon"
+                            style="color:wheat"></i>
+                    </span>
+
+                    <span class="light none" data-theme="white"
+                    data-color="black">
+                        <i class="fa-solid fa-sun"
+                            style="color:white"></i>
+                    </span>
+                </div>
+            <!-- ------------------------------- -->
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing" id="home">
+        <!-- <div class="overlay"></div> -->
+
+        <div class="slide_container">
+            <div id="slide" class="carousel slide" data-bs-target="carousel">
+                <ol class="carousel-indicators bullets">
+                    <li data-bs-target="#slide" data-bs-slide-to="0"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="1" class="active"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="img/slide/1.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/slide/2.jpg" alt="" class="d-block w-100 active">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide/3.jpg" alt="" class="d-block w-100">
+                    </div>
+                </div>
+                <a href="#slide" class="carousel-control-next" data-bs-slide="next">
+                    <i class="carousel-control-next-icon right"></i>
+                </a>
+                <a href="#slide" class="carousel-control-prev" data-bs-slide="prev">
+                    <i class="carousel-control-prev-icon left"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="text">
+            <div class="content">
+                <h2>
+                    Hello World <br>
+                    I'm OMAR Front-End Developer
+                </h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Facilis incidunt fuga dignissimos est neque eveniet 
+                    iusto, atque obcaecati illo, exercitationem quam sit! 
+                    Numquam saepe fugiat nobis ex praesentium voluptas 
+                    molestias!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="main_headign">
+                <h2>Services</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Numquam illo iure voluptatum quibusdam ipsum exercitationem 
+                    sint, veniam molestiae beatae laborum molestias.
+                </p>
+            </div>
+            <div class="services_container">
+                <div class="srv_box">
+                    <i class="material-icons-outlined">desktop_windows</i>
+                    <div class="text">
+                        <h3> Vorem amet intuitive </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Non ut consectetur consequatur
+                            adipisci vitae ex quidem numquam
+                        </p>
+                    </div>
+                </div>
+
+                <div class="srv_box">
+                    <i class="material-icons-outlined">settings</i>
+                    <div class="text">
+                        <h3> Vorem amet intuitive </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Non ut consectetur consequatur
+                            adipisci vitae ex quidem numquam
+                        </p>
+                    </div>
+                </div>
+
+                <div class="srv_box">
+                    <i class="material-icons-outlined">design_services</i>
+                    <div class="text">
+                        <h3> Vorem amet intuitive </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Non ut consectetur consequatur
+                            adipisci vitae ex quidem numquam
+                        </p>
+                    </div>
+                </div>
+
+                <div class="srv_box">
+                    <i class="material-icons-outlined">photo_camera</i>
+                    <div class="text">
+                        <h3> Vorem amet intuitive </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Non ut consectetur consequatur
+                            adipisci vitae ex quidem numquam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design Section -->
+    <div class="design">
+        <div class="image">
+            <img src="img/Mobile.png" alt="Mobile">
+        </div>
+        <div class="text">
+            <h2>Our Design Comes With...</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Design Section -->
+    <!-- Start Portfolio Section -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="main_headign">
+                <h2>Portfolio</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Numquam illo iure voluptatum quibusdam ipsum exercitationem 
+                    sint, veniam molestiae beatae laborum molestias.
+                </p>
+            </div>
+            <ul class="shuffle">
+                <li class="active">All</li>
+                <li>App</li>
+                <li>Photo</li>
+                <li>Web</li>
+                <li>Print</li>
+            </ul>
+        </div>
+        <div class="imgs_container center-flex">
+            <div class="img_box">
+                <img src="img/Portfolio/alex-knight-5-GNa303REg-unsplash.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/anthony-intraversato-vYRAP3yMa3I-unsplash.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/artwork-landscape-mountains-forest-minimalism-hd-wallpaper-preview.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/IMG-20220616-WA0033.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/Hd-Wallpapers-For-PC.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/pexels-photo-844297.jpeg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/pexels-stein-egil-liland-1933239.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/wplf2.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+
+            <div class="img_box">
+                <img src="img/Portfolio/fentezi-art-sova-krylia-vzgliad-oblaka.jpg"
+                    alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photographer</p>
+                    </div>
+            </div>
+        </div>
+
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- End Portfolio Section -->
+    <!-- Start Video Section -->
+    <div class="video">
+        <video src="img/Pc Games whatsapp status.mp4"
+            autoplay muted loop controls></video>
+            <div class="text">
+                <h2>Super Awesome Video Here</h2>
+                <p>It's All You Need</p>
+                <button>See More</button>
+            </div>
+    </div>
+    <!-- End Video Section -->
+    <!-- Start About Section -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main_headign">
+                <h2>About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque neque ab itaque magni tempore libero ullam.
+                </p>
+            </div>
+            <img src="img/Screens.png" alt="">
+        </div>
+    </div>
+    <!-- End About Section -->
+    <!-- Start Stats -->
+    <div class="stats">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-mug-hot"></i>
+                <div class="number">1,236</div>
+                <p>Coffe Drinks</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-folder"></i>
+                <div class="number">256</div>
+                <p>Complete Projects</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="number">1,743</div>
+                <p>Mail Sent</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trophy"></i>
+                <div class="number">17</div>
+                <p>Awards Received</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Stats -->
+    <!-- Start Skills -->
+    <div class="our_skills">
+        <div class="container">
+            <div class="testmonials">
+                <h3>Testmonials</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque neque ab itaque magni tempore libero ullam.
+                </p>
+
+                <div class="tab one">
+                    <div class="content">
+                        <img src="img/skills1.jpg" alt="">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque neque ab itaque magni tempore libero ullam.
+                        <p>John Deo, CEO</p>
+                        </div>
+                    </div>
+    
+                    <div class="content">
+                        <img src="img/skill2.jpg" alt="">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque neque ab itaque magni tempore libero ullam.
+                        <p>John Deo, CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab two">
+                    <div class="content">
+                        <img src="img/skill3.png" alt="">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque neque ab itaque magni tempore libero ullam.
+                        <p>Omar Ibrahim, CEO</p>
+                        </div>
+                    </div>
+    
+                    <div class="content">
+                        <img src="img/skill2.jpg" alt="">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque neque ab itaque magni tempore libero ullam.
+                        <p>Mohamed Ibrahim, CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab three">
+                    <div class="content">
+                        <img src="img/skill2.jpg" alt="">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque neque ab itaque magni tempore libero ullam.
+                        <p>John Deo, CEO</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <img src="img/underwater city.jpg" alt="">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eaque neque ab itaque magni tempore libero ullam.
+                        <p>John Deo, CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="bullets">
+                    <li class="one" data-cont=".one"></li>
+                    <li class="two active" data-cont=".two"></li>
+                    <li class="three"  data-cont=".three"></li>
+            </div>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque neque ab itaque magni tempore libero ullam.
+                </p>
+                <div class="prog_holder">
+                    <h4>Adobe</h4>
+                    <div class="prog">
+                        <span 
+                        data-progress="90%"></span>
+                    </div>
+                </div>
+
+                <div class="prog_holder">
+                    <h4>Html &amp; Css</h4>
+                    <div class="prog">
+                        <span 
+                        data-progress="85%"></span>
+                    </div>
+                </div>
+
+                <div class="prog_holder">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span 
+                        data-progress="80%"></span>
+                    </div>
+                </div>
+
+                <div class="prog_holder">
+                    <h4>Php</h4>
+                    <div class="prog">
+                        <span 
+                        data-progress="90%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Quote -->
+    <div class="quote">
+        <div class="container">
+            <q>
+                Learn as if you will live forever, live like you will die tomorrow.
+            </q>
+            <span>— Mahatma Gandhi</span>
+        </div>
+    </div>
+    <!-- End Quote -->
+    <!-- Start Pricing Section -->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="main_headign">
+                <h2>Pricing</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Numquam illo iure voluptatum quibusdam ipsum exercitationem 
+                    sint, veniam molestiae beatae laborum molestias.
+                </p>
+            </div>
+            <div class="plans">
+                <div class="plan_box">
+                    <div class="plan_head">
+                        <h3>Basic</h3>
+                        <span data-price="$"
+                            data-time="/Mon">19</span>
+                        </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Feature No 1</li>
+                            <li>Feature</li>
+                        </ul>
+                    <div class="plan_footer">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="plan_box">
+                    <div class="plan_head">
+                        <h3>Premium</h3>
+                        <span data-price="$"
+                            data-time="/Mon">29</span>
+                        </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Feature No 1</li>
+                            <li>Feature</li>
+                        </ul>
+                    <div class="plan_footer">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="plan_box">
+                    <div class="plan_head">
+                        <h3>Pro</h3>
+                        <span data-price="$"
+                            data-time="/Mon">39</span>
+                        </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Feature No 1</li>
+                            <li>Feature</li>
+                        </ul>
+                    <div class="plan_footer">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="plan_box">
+                    <div class="plan_head">
+                        <h3>Platinum</h3>
+                        <span data-price="$"
+                            data-time="/Mon">49</span>
+                        </div>
+                        <ul>
+                            <li>Feature No 1</li>
+                            <li>Extra Feature</li>
+                            <li>Extra Feature No 1</li>
+                            <li>Feature</li>
+                        </ul>
+                    <div class="plan_footer">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact_text">
+                Contact us if you have a special request
+            </p>
+            <a href="#" 
+                class="contact_link">Contact Us</a>
+        </div>
+        </div>
+    </div>
+    <!-- End Pricing Section -->
+    <!-- Statr Subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <form>
+                <i class="fa fa-envelope fa-lg"></i>
+                <input type="email" name="mail" 
+                    placeholder="Your E-mail" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Numquam illo iure voluptatum quibusdam ipsum.
+            </p>
+        </div>
+    </div>
+    <!-- End Subscribe -->
+    <!-- Start Contact Section -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main_headign">
+                <h2>Contact Us</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Numquam illo iure voluptatum quibusdam ipsum exercitationem 
+                    sint, veniam molestiae beatae laborum molestias.
+                </p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input type="text" name="name" 
+                        class="main_input" placeholder="Your Name">
+                    <input type="email" name="mail" 
+                        class="main_input" placeholder="Your E-mail">
+                    <textarea name="message" class="main_input" 
+                        placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">.00 123 .456.789</span>
+                    <span class="phone">.00 123 .456.789</span>
+                    <h4>Where We Are</h4>
+                    <address>Awesome Adress 17 <br>
+                        New York, NYC <br>
+                        123-4567-890 <br>
+                        USA
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Section -->
+    <!-- Start Footer Section -->
+    <footer>
+        <div class="container">
+            <img src="img/logo 2.png" alt="logo">
+            <p>We Are Social</p>
+            <div class="social_icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">
+                &copy;2022 <span>Kasper</span> All Right Reserved 
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script src="js/main.js"></script>
+</body>
+</html>
